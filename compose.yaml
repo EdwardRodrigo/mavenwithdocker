@@ -1,0 +1,8 @@
+services:
+
+  app:
+    image: tomcat:9.0
+    ports:
+      - 8080:8080
+    volumes:
+      - ./target/modulo1:/usr/local/tomcat/webapps/modulo1
