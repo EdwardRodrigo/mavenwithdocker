@@ -6,3 +6,10 @@ services:
       - 8080:8080
     volumes:
       - ./target/modulo1:/usr/local/tomcat/webapps/modulo1
+
+  db:
+    build:
+      dockerfile: db.Dockerfile
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: root
