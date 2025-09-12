@@ -18,11 +18,14 @@
 <html>
      <head>
           <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+          <script src="https://kit.fontawesome.com/b523750ed6.js" crossorigin="anonymous"></script>
           <link type="text/css" rel="stylesheet" href="app.css">   
-          <title>Diplomado - Tecnologias de la Información</title>
+          <title>Diplomado</title>
      </head>
      <body>
-          <h1 class="header">Diplomado - Tecnologias de la Información</h1>
+          <div id="header">
+               <h1>Curso De Desarrollo De Software</h1>
+          </div>
           <div class="container">
                <%
  
@@ -36,10 +39,10 @@
                          while(result.next()){
 
                               out.println("<div class=\"estudiante\">");
-                                   out.println("<span class=\"material-symbols-outlined\">person</span>");
-                                   out.println("<label>");
-                                   out.println(result.getString(1));
-                                   out.println("</label>");
+                              out.println("<i class=\"fa-solid fa-image-portrait\"></i>");
+                              out.print("<label class=\"nombre\">");
+                              out.print(result.getString(1));
+                              out.println("</label>");
                               out.println("</div>");
                          }
                          
@@ -49,5 +52,6 @@
 
                %>
           </div>
+          <div id="footer"></div>
      </body>
 </html>
