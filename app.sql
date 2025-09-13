@@ -73,6 +73,7 @@ COPY public.estudiante (id, nombre) FROM stdin;
 5	Jose Daniel Arancibia Sanjines
 6	Erick Vladimir Hidalgo Conde
 7	Alpharius Ramirez
+8	Fabricio Percy Lazarte Chambi
 \.
 
 
