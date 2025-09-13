@@ -67,13 +67,12 @@ ALTER TABLE public.estudiante OWNER TO postgres;
 
 COPY public.estudiante (id, nombre) FROM stdin;
 1	Edward Rodrigo Hinojosa Ignacio
-2	Estudiante 2
-3	Estudiante 3
-4	Estudiante 4
-5	Estudiante 5
-6	Estudiante 6
-7	Estudiante 7
-8	Estudiante 8
+2	Juan Diego Ali Castillo
+3	Misael Roca Saucedo
+4	Joel Andres Quisbert Calderon
+5	Jose Daniel Arancibia Sanjines
+6	Erick Vladimir Hidalgo Conde
+7	Alpharius Ramirez
 \.
 
 
